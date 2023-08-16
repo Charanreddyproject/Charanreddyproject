@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact</title>
+    <style>
+        form
+        {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            max-width: 500px;
+            margin: 0px auto;
+            padding: 0px;
+            
+        }
+        header {
+            text-align:left;
+            padding: 10px;
+        }
+        .id {
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color:#60cbd3;
+            border: 5px;
+        }
+        .submit {
+            text-align: center;
+        }
+        h1 {
+            color: #333333;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body background="wp7213373.webp" align="center">
+    <h1><mark>CONTACT</mark></h1>
+    <p><font size="5"> I Continuously seek self-improvement and take initiatives to develop the skills needed 
+        to achieve your company goals and Pursue opportunities that align with your passions and contribute 
+        to your vision.</font></p>
+    <br><br>
+    <font size="5"><b>Email:&nbsp;&nbsp; vcharanreddyctr@gmail.com</b></font>
+    <br><br>
+    <font size="5"><i>If you like my profile please fill in the details:</i></font>
+    <br><br>
+    <form action="#" onsubmit="return displayThankYou();">
+        <div class="id">
+        <font size="6">
+        <label for="Name"><b> First Name:</b></label>
+        <input type="text" placeholder="" required id="Name">
+        <br><br>
+        <label for="Company Name"><b>Last Name:</b></label>
+        <input type="text" placeholder="" required id="Company Name">
+        <br><br>
+        <label for="Email"><b>Email:</b></label>
+        <input type="email" placeholder="" required id="Email">
+        <br><br>
+        <label for="Phone Number"><b>Phone Number:</b></label>
+        <input type="tel" placeholder="" required id="Phone Number">
+        <br><br>
+        <div class="submit">
+            <input type="submit" value="Submit"></input>
+        </div>
+        </font>
+    </form>
+    <div id="thankYouMessage" style="display: none;">
+        <p><b>Thank You for reaching out to us. We will get back to you.</b></p>
+    </div>
+</body>
+</html>
